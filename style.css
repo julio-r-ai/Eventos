@@ -6,7 +6,7 @@
 
 
 .caixas{
-    background-color: rgb(145, 147, 149);
+    background-color: rgb(209, 212, 213);
     display: flex;
     flex-wrap: wrap;
     height: 400px;
@@ -28,7 +28,7 @@
 }
 
 .caixa2{
-    background-color: rgb(67, 67, 136);
+    background-color: #864388;
     width: 150px;
     height: 150px;
     display: flex;
@@ -40,9 +40,9 @@ button{
     font-size: 18px;
     color: rgb(57, 57, 57);
     border-radius: 5px;
-    box-shadow: 2px 2px 7px 2px rgb(104, 104, 104);
     background-color: rgb(163, 167, 171);
     transition: 0.5s all;
+    margin-bottom: 15px;
     
 }
 
@@ -52,7 +52,24 @@ button:hover{
     font-size: 18px;
     color: rgb(0, 0, 0);
     border-radius: 5px;
-    box-shadow: 2px 2px 7px 2px rgb(79, 78, 78);
+    box-shadow: 2px 2px 7px 2px rgb(104, 104, 104);
     background-color: rgb(255, 255, 255);
     transition: 0.5s all;
+    font-weight: bolder;
+}
+
+button:hover[id='azul']{
+    background-color: lightskyblue;
+}
+
+button:hover[id='violeta']{
+    background-color: blueviolet;
+}
+
+button:hover[id='verde']{
+    background-color: green;
+}
+
+button:hover[id='pink']{
+    background-color: #864388;
 }

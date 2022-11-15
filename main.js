@@ -1,16 +1,24 @@
 //Praticando o Onclick
 
-const mudarCor1 = () => {
+const azulLith = () => {
     
-    let caixa1 = document.querySelector('.caixa1').style.backgroundColor = 'lightskyblue';
+    let lightskyblue = document.querySelector('.caixa1').style.backgroundColor = 'lightskyblue';
     
 };
 
-const mudarCor2 = () => {
+const violeta = () => {
+    let blueviolet = document.querySelector('.caixa1').style.backgroundColor = 'blueviolet';
+}
+
+const verde = () => {
     
-    let caixa1 = document.querySelector('.caixa2').style.backgroundColor = 'green';
+    let green = document.querySelector('.caixa2').style.backgroundColor = 'green';
 
 };
+
+const pink = () => {
+    let rosa = document.querySelector('.caixa2').style.backgroundColor = '#864388';
+}
 
 //Praticando o onmouseOver/onmouserout
 
