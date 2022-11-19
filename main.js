@@ -22,12 +22,12 @@ const pink = () => {
 
 //Praticando o onmouseOver/onmouserout
 
-const cresceCaixa = () => {
+ const cresceCaixa = () => {
     
     let width = document.querySelector('.caixa1').style.width = '200px';
     let height= document.querySelector('.caixa1').style.height = '200px';
 
-}
+} 
 
 const desceCaixa = () => {
 
@@ -53,6 +53,23 @@ const desceCaixa2 = () => {
 }
 
 
+// Evento (keydown) ao apertar alguma tecla do teclado
+
+document.addEventListener("keydown", function(apertar){
+    if(apertar.key === "a"){
+        let a = document.querySelector(".caixa3");
+
+        a.style.backgroundColor='blue'
+    }
+})
+
+document.addEventListener("keyup", function(apertar){
+    if(apertar.key === "a"){
+        let a = document.querySelector(".caixa3");
+
+        a.style.backgroundColor='blueviolet'
+    }
+})
 
 
 

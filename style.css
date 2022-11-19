@@ -73,3 +73,26 @@ button:hover[id='verde']{
 button:hover[id='pink']{
     background-color: #864388;
 }
+
+
+.eventoKey{
+    background-color: rgb(209, 212, 213);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+
+
+    
+}
+
+.eventoKey button{
+  
+}
+
+.caixa3{
+    background-color: blueviolet;
+    width: 250px;
+    height: 250px;
+
+}
